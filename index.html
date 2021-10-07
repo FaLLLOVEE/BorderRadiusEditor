@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="border-radius-ed">
+            <div id="radius" ></div>
+        </div>
+        <div class="css">
+            <div class="css-border-r-editor">
+                <p>Top left</p>
+                <input type="range" min="0" max="50" value="50" id="r-top">
+                <p>Top right</p>
+                <input type="range" min="0" max="50" value="50" id="r-right" >
+                <p>Bottom right</p>
+                <input type="range" min="0" max="50" value="50" id="r-bottom">
+                <p>Bottom left</p>
+
+                <input type="range" min="0" max="50" value="50" id="r-left" >
+            </div>
+            <div class="css-code">
+                <span class="word">border-radius</span>
+                <span class="op">:</span> 
+                <span class="content">
+                    <input type="text" value="50%" id="inp-r-top">
+                    <input type="text" value="50%" id="inp-r-right">
+                    <input type="text" value="50%" id="inp-r-bottom">
+                    <input type="text" value="50%" id="inp-r-left">
+
+                </span> 
+                <span class="op">;</span>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
